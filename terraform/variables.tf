@@ -41,3 +41,27 @@ variable "ssm_private_subnet_1b" {
 variable "ssm_private_subnet_1c" {
 
 }
+
+variable "environment_variables" {
+
+}
+
+variable "capabilities" {
+
+}
+
+variable "service_healthcheck" {
+
+}
+
+variable "service_launch_type" {
+
+}
+
+variable "service_task_count" {
+
+}
+
+variable "service_hosts" {
+
+}
