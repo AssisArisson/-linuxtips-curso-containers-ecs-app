@@ -26,4 +26,9 @@ module "service" {
 
   ]
 
+  #AutoScalling
+  scale_type   = var.scale_type
+  task_minimum = var.task_minimum
+  task_maximum = var.task_maximum
+
 }
